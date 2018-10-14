@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio Site</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <header class="header">
-    <img class="header__logo"></img>
-    <div class="header__title">
-      <h1>Erik Peterson</h1>
-      <p>GitHub Code</p>
-    </div>
-  </header>
-  <nav></nav>
-  <main>
-    <section class="hero"></section>
-    <section class="featured-work">
-      <h2>Featured Repositories</h2>
-      <ul>
-        <li class="featured-work_item">
-          <a href="https://github.com">
-            <img class="featured-work_thumb" src="" alt=""></img>
-            <h3>appify</h3>
-            <p>https://github.com</p>
-          </a>
-        </li>
-        <li class="featured-work_item"></li>
-        <li class="featured-work_item"></li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-  </footer>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <img class="header__logo" src="img/logo_lg.png" alt="glasses logo"/>
+            <div class="header__title">
+                <h1>Erik Peterson</h1>
+                <p>GitHub Code</p>
+            </div>
+            <a id="menu" class="header__menu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+              </svg>
+            </a>
+        </div>
+    </header>
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="about.html">About</a></li>
+        <li class="nav__item"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+        <section class="content">
+            <section class="hero"></section>
+            <section class="featured-work">
+                <h2 class="featured-work__title">Featured Repos</h2>
+                <ul>
+                    <li class="featured-work-item">
+                        <a href="https://github.com/epeter85/mcdonalds-build-a-burger" target="_blank">
+                        <img class="featured-work-item__thumb" src="img/mcdonalds.jpg" alt="mcdonalds project thumbnail"/>
+                        <h2>McDonalds Build a Burger</h2>
+                        <p>view git repo</p></a>
+                    </li>
+                    <li class="featured-work-item">
+                        <a href="https://github.com/epeter85/schweidandsons" target="_blank">
+                        <img class="featured-work-item__thumb" src="img/schweid_sons.jpg" alt="schweid & sons project thumbnail"/>
+                        <h2>Schweid & Sons</h2>
+                        <p>view git repo</p></a>
+                    </li>
+                    <li class="featured-work-item">
+                        <a href="https://github.com/epeter85/erik-id" target="_blank">
+                        <img class="featured-work-item__thumb" src="img/erik_id.jpg" alt="erik-id project thumbnail"/>
+                        <h2>erik-id</h2>
+                        <p>view git repo</p></a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    <footer>
+      <ul>
+        <li><p>©2018 Erik Peterson</p></li>
+        <li><a href="mailto:erik@erik-id.com">erik@erik-id.com</a></li>
+      </ul>
+    </footer>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
