@@ -1,0 +1,42 @@
+
+/*Global styles*/
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #424242;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+ .header {
+     border-bottom: 3px solid #7d97ad;
+ }
