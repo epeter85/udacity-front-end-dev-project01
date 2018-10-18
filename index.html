@@ -33,7 +33,17 @@
     </nav>
     <main>
         <section class="content">
-            <section class="hero"></section>
+            <section>
+                <picture>
+                  <source media="(min-width: 701px)" srcset="img/github_hero_1100.jpg">
+                  <source media="(max-width: 700px)" srcset="img/github_hero_700.jpg">
+                  <img class ="hero" src="img/github_hero_1100.jpg" alt="hero image code">
+                </picture>
+                <!-- <img src="img/github_hero_1100.jpg"
+                srcset="img/github_hero_700.jpg 100w, img/github_hero_1100.jpg 200w"
+                alt="hero image code"
+                class="hero"/> -->
+            </section>
             <section class="featured-work">
                 <h2 class="featured-work__title">Featured Repos</h2>
                 <ul>

@@ -122,11 +122,12 @@ main {
  */
 .hero {
     width: 100%;
-    position: relative;
+    height: auto;
+    /* position: relative;
     background-image: url("../img/github_hero.jpg");
     background-size: cover;
     background-position: center center;
-    min-height: 300px;
+    min-height: 300px; */
 }
 
 /*
