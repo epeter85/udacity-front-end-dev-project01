@@ -123,11 +123,6 @@ main {
 .hero {
     width: 100%;
     height: auto;
-    /* position: relative;
-    background-image: url("../img/github_hero.jpg");
-    background-size: cover;
-    background-position: center center;
-    min-height: 300px; */
 }
 
 /*
@@ -136,7 +131,6 @@ main {
 *
 */
 .featured-work {
-    /* padding: 1em; */
     width: 100%;
 }
 

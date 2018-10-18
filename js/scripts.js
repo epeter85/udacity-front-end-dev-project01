@@ -8,9 +8,9 @@ var drawer = document.querySelector('.nav');
 console.log(menu);
 
 menu.addEventListener('click', function(e) {
-  drawer.classList.toggle('open');
-  e.stopPropagation();
+    drawer.classList.toggle('open');
+    e.stopPropagation();
 });
 main.addEventListener('click', function() {
-  drawer.classList.remove('open');
+    drawer.classList.remove('open');
 });
